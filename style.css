@@ -7,16 +7,21 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background: #e3e6f3;
-    box-shadow: 8px 14px 5px 0px rgba(74, 66, 119, 0.75);
-    -webkit-box-shadow: 8px 14px 5px 0px rgba(51,41,41,0.75);
-    -moz-box-shadow: 8px 14px 5px 0px rgba(51,41,41,0.75);
+    background: #041457;
+    box-shadow: 8px 14px 5px 0px rgba(31, 102, 90, 0.75);
+    -webkit-box-shadow: 8px 14px 5px 0px rgba(51, 41, 41, 0.75);
+    -moz-box-shadow: 8px 14px 5px 0px rgba(51, 41, 41, 0.75);
     border-radius: 30px;
     z-index: 999;
     position: sticky;
     top: 0;
     left: 0;
     border: 1px solid black;
+    height: 5vh;
+}
+
+#header h1 {
+    color: #fff;
 }
 
 #Nav-bar.active {
@@ -28,7 +33,7 @@ body {
     align-items: center;
     justify-content: center;
     list-style: none;
-   
+
 }
 
 #mobile {
@@ -45,17 +50,17 @@ body {
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
-    color: #1a1a1a;
+    color: #f5f5f5;
 }
 
 #Nav-bar li a:hover {
-    color: #088178;
+    color: rgb(247, 86, 112);
     transition: 0.3s ease;
 }
 
 #Nav-bar li a:hover,
 #Nav-bar li a.active {
-    color: #088178;
+    color: #b9093e;
 }
 
 #Nav-bar li a.active::after,
@@ -74,13 +79,13 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
-   margin-top: 5rem;
+    margin-top: 5rem;
     height: 60vh;
-   border: 1px solid black;
-   border-radius: 20px;
-   box-shadow: 8px 14px 5px 0px rgba(51,41,41,0.75);
-   -webkit-box-shadow: 8px 14px 5px 0px rgba(51,41,41,0.75);
-   -moz-box-shadow: 8px 14px 5px 0px rgba(51,41,41,0.75);
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 8px 14px 5px 0px rgba(51, 41, 41, 0.75);
+    -webkit-box-shadow: 8px 14px 5px 0px rgba(51, 41, 41, 0.75);
+    -moz-box-shadow: 8px 14px 5px 0px rgba(51, 41, 41, 0.75);
 
 }
 
@@ -105,7 +110,7 @@ body {
     text-decoration: #088178;
 }
 
-/* From Uiverse.io by adamgiebl */ 
+/* From Uiverse.io by adamgiebl */
 .input-wrapper input {
     background-color: #eee;
     border: none;
@@ -116,11 +121,11 @@ body {
     color: rgb(20, 17, 17);
     box-shadow: 0 0.4rem #dfd9d9;
 
-  }
-  
-  .input-wrapper input:focus {
+}
+
+.input-wrapper input:focus {
     outline-color: rgb(17, 17, 17);
-  }
+}
 
 .text button {
     background-color: rgb(150, 27, 58);
@@ -149,7 +154,7 @@ body {
     text-align: center;
     overflow: hidden;
     margin-top: 50px;
-   
+
 }
 
 #card-container {
@@ -235,17 +240,48 @@ body {
 }
 
 .right-ft input {
-border-radius: 10px;
+    border-radius: 10px;
     border: none;
     margin-top: 20px;
     width: 280px;
 }
-.input-h{
+
+.input-h {
     height: 49px;
 }
-#message{
+
+#message {
     height: 110px;
 }
-.image-footer{
+
+.image-footer {
     border-radius: 30px;
+}
+
+.pics {
+    display: flex;
+    text-align: center;
+    margin-top: 4rem;
+}
+.story-container{
+    background-color: rgb(221, 221, 221);
+    height: 90vh;
+}
+.headings-story {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(46, 44, 44);
+    flex-direction: column;
+    padding-left: 5rem;
+    font-size: 29px;
+}
+
+.headings-story span {
+    font-size: 26px;
+    background-color: #ee99e3;
+    border-radius: 10px;
+
+
+
 }
