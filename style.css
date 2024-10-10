@@ -300,15 +300,17 @@ body {
     align-items: flex-start;
     text-align: left;
     flex-direction: column;
-    
+
     height: 500px;
     width: 500px;
 }
-.h1-cont{
-font-size: 25px;
+
+.h1-cont {
+    font-size: 25px;
 
 }
-.p-cont{
+
+.p-cont {
     font-size: 15px;
 }
 
@@ -318,19 +320,22 @@ font-size: 25px;
     align-items: flex-start;
     text-align: left;
     flex-direction: column;
-  
+
     height: 500px;
     width: 400px;
 }
-.div2 h2{
+
+.div2 h2 {
     font-size: 29px;
     color: rgb(54, 54, 54);
 }
-.div2 p{
+
+.div2 p {
     font-size: 20px;
     color: rgb(54, 54, 54);
 }
-.div2 span{
+
+.div2 span {
     font-size: 20px;
     color: rgb(0, 0, 0);
     padding-top: 20px;
@@ -341,6 +346,36 @@ font-size: 25px;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-   
+
     padding-top: 4rem;
+}
+
+.mid-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.card-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    width: 40rem;
+    height: 40rem;
+}
+
+.card-imgss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 10rem;
+    height: 10rem;
+
 }
