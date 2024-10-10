@@ -379,3 +379,10 @@ body {
     height: 10rem;
 
 }
+.heart{
+    background-color: #041457;
+    width: 50vw;
+    height: 20vh;
+    padding-left: 20px;
+    color: #f5f5f5;
+}
